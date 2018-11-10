@@ -29,5 +29,8 @@
     <ClInclude Include="encryption_medium.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="climbing_the_leaderboard_medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

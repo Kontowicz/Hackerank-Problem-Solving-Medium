@@ -1,2 +1,2 @@
 ﻿  main.cpp
-LINK : fatal error LNK1561: entry point must be defined
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(10): error C3861: 'climbingLeaderboard': identifier not found
