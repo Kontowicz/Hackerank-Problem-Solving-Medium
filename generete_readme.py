@@ -5,15 +5,13 @@ def get_files(path):
 	files = os.listdir(path)
 	final_medium = []
 	for file in files:
-		print(file)
 		if file[len(file)-8:len(file)] == 'medium.h' and file != 'include_medium.h':
 			final_medium.append(file)
-	print(len(final_medium))
 	return final_medium
 	
 def add_top(path):
 	file = open(path + 'README.md', 'w')
-	file.write('<H1>Problem Solving<H1>\n\n')
+	file.write('<H1>My hackerrank problem solving solutions<H1>\n\n')
 	file.close()
 	
 

@@ -39,7 +39,7 @@
       <Filter>Header Files\headers</Filter>
     </ClInclude>
     <ClInclude Include="bigger_is_greater_medium.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Medium</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
