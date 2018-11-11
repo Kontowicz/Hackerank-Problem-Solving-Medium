@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Medium">
+      <UniqueIdentifier>{6adb5fea-fc09-4bf8-8600-8a78fc5a0d27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\headers">
+      <UniqueIdentifier>{9ae69fba-91d3-4590-8188-433b44744162}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,16 +26,19 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include_medium.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="extra_long_factorials_medium.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="climbing_the_leaderboard_medium.h">
+      <Filter>Header Files\Medium</Filter>
     </ClInclude>
     <ClInclude Include="encryption_medium.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Medium</Filter>
     </ClInclude>
-    <ClInclude Include="climbing_the_leaderboard_medium.h">
+    <ClInclude Include="extra_long_factorials_medium.h">
+      <Filter>Header Files\Medium</Filter>
+    </ClInclude>
+    <ClInclude Include="include_medium.h">
+      <Filter>Header Files\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bigger_is_greater_medium.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

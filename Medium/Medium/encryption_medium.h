@@ -11,7 +11,9 @@ namespace _2
 		int str_len_up = ceil(sqrt(s.length()));
 
 		std::string to_return = "";
-		if (str_len_down * str_len_up < s.length()) str_len_down = str_len_up;
+		if (str_len_down * str_len_up < s.length())
+			str_len_down = str_len_up;
+
 		for (int i = 0; i < str_len_up; i++)
 		{
 			for (int j = i; j < s.length(); j += str_len_up)

@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <vector>
 
-namespace _4
+namespace _3
 {
 	std::vector<int> climbingLeaderboard(std::vector<int> scores, std::vector<int> alice) 
 	{
@@ -27,7 +27,6 @@ namespace _4
 
 		while (end < alice.size() - 1)
 		{
-
 			to_return.push_back(1);
 			++end;
 		}

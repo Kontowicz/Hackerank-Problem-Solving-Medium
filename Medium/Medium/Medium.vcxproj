@@ -118,6 +118,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="bigger_is_greater_medium.h" />
     <ClInclude Include="climbing_the_leaderboard_medium.h" />
     <ClInclude Include="encryption_medium.h" />
     <ClInclude Include="extra_long_factorials_medium.h" />

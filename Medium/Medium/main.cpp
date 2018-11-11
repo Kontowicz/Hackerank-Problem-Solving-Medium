@@ -7,5 +7,4 @@
 int main()
 {
 
-	climbingLeaderboard({ 1 }, { 1, 1 });
 }
