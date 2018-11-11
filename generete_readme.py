@@ -22,7 +22,7 @@ def generate_medium(medium, path):
 	if len(medium) > 0:
 		tmp = []
 		for e in medium:
-			tmp.append( [e[0].upper() + e[1:-8].replace('_',' '), ('https://www.hackerrank.com/challenges/%s/problem' %(e[:-7].replace('_','-'))), e, ])
+			tmp.append( [e[0].upper() + e[1:-8].replace('_',' '), ('https://www.hackerrank.com/challenges/%s/problem' %(e[:-9].replace('_','-'))), e, ])
 		file = open(path+'README.md', 'a')
 		file.write('\n\n<H3>Medium<H3>\n\n')
 		file.write('|Number| Hackerrank exercise | MySolution |\n')
