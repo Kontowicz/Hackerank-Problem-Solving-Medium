@@ -122,6 +122,7 @@
     <ClInclude Include="climbing_the_leaderboard_medium.h" />
     <ClInclude Include="encryption_medium.h" />
     <ClInclude Include="extra_long_factorials_medium.h" />
+    <ClInclude Include="fibonacci_modified_medium.h" />
     <ClInclude Include="include_medium.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

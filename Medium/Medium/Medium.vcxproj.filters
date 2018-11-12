@@ -41,5 +41,8 @@
     <ClInclude Include="bigger_is_greater_medium.h">
       <Filter>Header Files\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="fibonacci_modified_medium.h">
+      <Filter>Header Files\Medium</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
