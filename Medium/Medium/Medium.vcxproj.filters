@@ -44,5 +44,8 @@
     <ClInclude Include="fibonacci_modified_medium.h">
       <Filter>Header Files\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="the_grid_search_medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -124,6 +124,7 @@
     <ClInclude Include="extra_long_factorials_medium.h" />
     <ClInclude Include="fibonacci_modified_medium.h" />
     <ClInclude Include="include_medium.h" />
+    <ClInclude Include="the_grid_search_medium.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
