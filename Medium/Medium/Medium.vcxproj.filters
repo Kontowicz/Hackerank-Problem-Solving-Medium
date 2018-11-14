@@ -45,7 +45,7 @@
       <Filter>Header Files\Medium</Filter>
     </ClInclude>
     <ClInclude Include="the_grid_search_medium.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Medium</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
