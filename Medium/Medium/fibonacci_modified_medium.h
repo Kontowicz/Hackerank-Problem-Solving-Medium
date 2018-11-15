@@ -1,6 +1,6 @@
 #pragma once
 
-namespace _5
+namespace _6
 {
 	int fibonacciModified(int t1, int t2, int n) {
 		int to_return = 0;
@@ -11,6 +11,13 @@ namespace _5
 			t2 = to_return;
 		}
 		return to_return;
+	}
 
+	void run()
+	{
+		std::cout << "Fibonacci modified.\nEnter t1, t2, n:\n";
+		int t1, t2, n;
+		std::cin >> t1 >> t2 >> n;
+		std::cout << "Result: " << fibonacciModified(t1, t2, n);
 	}
 }

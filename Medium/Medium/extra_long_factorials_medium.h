@@ -3,7 +3,7 @@
 #include <vector>
 #include <iostream>
 
-namespace  _1
+namespace _1
 {
 	std::vector<int> muptiply_big(std::vector<int> mul, int m)
 	{
@@ -22,5 +22,26 @@ namespace  _1
 		}
 		std::reverse(to_return.begin(), to_return.end());
 		return  to_return;
+	}
+
+	void run()
+	{
+		std::cout << "Extra long factorials.\nEnter m and mul size:\n";
+		int m, mul_size;
+		std::cin >> m >> mul_size;
+		std::vector<int> mul;
+
+		int tmp;
+		for (int i = 0; i < mul_size; ++i)
+		{
+			std::cin >> tmp;
+			mul.push_back(tmp);
+		}
+
+		std::cout << "\nResult:";
+		std::vector<int> result = muptiply_big(mul, m);
+
+		for (int i : result)
+			std::cout << i << " ";
 	}
 }

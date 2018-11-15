@@ -37,4 +37,13 @@ namespace _4
 
 		return "no answer";
 	}
+
+	void run()
+	{
+		std::cout << "Bigger is greater.\n";
+		std::cout << "Enter string:\n";
+		std::string data; 
+		std::cin >> data;
+		std::cout << biggerIsGreater(data);
+	}
 }

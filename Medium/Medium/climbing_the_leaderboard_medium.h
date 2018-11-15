@@ -32,4 +32,31 @@ namespace _3
 		}
 		return to_return;
 	}
+
+	void run()
+	{
+		std::cout << "Climbing the leaderboard.\nEnter score and alice size:\n";
+		int score_size, alice_size;
+		std::cin >> score_size >> alice_size;
+		std::vector<int> score;
+		std::vector<int> alice;
+		int tmp;
+		for (int i = 0; i < score_size; ++i)
+		{
+			std::cin >> tmp;
+			score.push_back(tmp);
+		}
+
+		for (int i = 0; i < alice_size; ++i)
+		{
+			std::cin >> tmp;
+			alice.push_back(tmp);
+		}
+
+		std::cout << "\nResult:";
+		std::vector<int> result = climbingLeaderboard(score, alice);
+		
+		for (int i : result)
+			std::cout << i << " ";
+	}
 }

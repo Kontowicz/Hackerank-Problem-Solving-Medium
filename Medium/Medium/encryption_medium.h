@@ -24,4 +24,12 @@ namespace _2
 		}
 		return to_return;
 	}
+
+	void run()
+	{
+		std::cout << "Encyption.\n";
+		std::cout << "Enter string:\n";
+		std::string data;
+		std::cout << encryption(data);
+	}
 }
