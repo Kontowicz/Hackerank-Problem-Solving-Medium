@@ -32,6 +32,6 @@ def generate_medium(medium, path):
 		file.close()
 
 		
-add_top( 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/' )
-generate_medium(get_files('E:/Repos/C++/Hackerank-Problem-Solving-Medium/Medium/Medium/'), 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/')
+#add_top( 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/' )
+#generate_medium(get_files('E:/Repos/C++/Hackerank-Problem-Solving-Medium/Medium/Medium/'), 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/')
 

@@ -1,7 +1,7 @@
 import re
 import os
-
-def get_files(path):
+from generete_readme import generate_medium, get_files, add_top
+def get_files_main(path):
 	files = os.listdir(path)
 	final_medium = []
 	for file in files:
@@ -71,6 +71,10 @@ def generate_main(data, path):
 path_main = 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/Medium/Medium/main.cpp'
 path_include_medium = 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/Medium/Medium/include_medium.h'
 path_medium = 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/Medium/Medium/'
-f = get_files(path_medium)
+read_me_path = 'E:/Repos/C++/Hackerank-Problem-Solving-Medium/'
+
+f = get_files_main(path_medium)
 generate_include_medium(f, path_include_medium)
 generate_main(f, path_main)
+add_top( read_me_path )
+generate_medium(get_files(path_medium), read_me_path)
