@@ -19,5 +19,6 @@ namespace _6
 		int t1, t2, n;
 		std::cin >> t1 >> t2 >> n;
 		std::cout << "Result: " << fibonacciModified(t1, t2, n);
+		std::cout << "\n";
 	}
 }

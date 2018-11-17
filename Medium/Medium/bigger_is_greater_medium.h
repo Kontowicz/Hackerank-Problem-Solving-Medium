@@ -45,5 +45,6 @@ namespace _4
 		std::string data; 
 		std::cin >> data;
 		std::cout << biggerIsGreater(data);
+		std::cout << "\n";
 	}
 }

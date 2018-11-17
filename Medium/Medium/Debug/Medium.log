@@ -1,2 +1,12 @@
 ﻿  main.cpp
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(14): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(19): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\climbing_the_leaderboard_medium.h(14): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\climbing_the_leaderboard_medium.h(28): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\the_grid_search_medium.h(10): warning C4018: '<=': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\the_grid_search_medium.h(11): warning C4018: '<=': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(15): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(21): warning C4018: '<': signed/unsigned mismatch
   Medium.vcxproj -> E:\Repos\C++\Hackerank-Problem-Solving-Medium\Medium\Debug\Medium.exe

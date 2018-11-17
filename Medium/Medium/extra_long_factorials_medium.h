@@ -32,6 +32,7 @@ namespace _1
 		std::vector<int> mul;
 
 		int tmp;
+		std::cout << "Enter mul:\n";
 		for (int i = 0; i < mul_size; ++i)
 		{
 			std::cin >> tmp;
@@ -43,5 +44,7 @@ namespace _1
 
 		for (int i : result)
 			std::cout << i << " ";
+
+		std::cout << "\n";
 	}
 }

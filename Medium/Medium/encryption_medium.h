@@ -30,6 +30,7 @@ namespace _2
 		std::cout << "Encyption.\n";
 		std::cout << "Enter string:\n";
 		std::string data;
+		std::cin >> data;
 		std::cout << encryption(data);
 	}
 }

@@ -30,12 +30,14 @@ namespace _5
 		std::vector<std::string> grid;
 		std::vector<std::string> pattern;
 		std::string tmp;
+		std::cin >> grid_size >> patterns_size;
+		std::cout << "Enter grid:\n";
 		for (int i = 0; i < grid_size; ++i)
 		{
 			std::cin >> tmp;
 			grid.push_back(tmp);
 		}
-			
+		std::cout << "Enter patterns:\n";
 		for (int i = 0; i < patterns_size; ++i)
 		{
 			std::cin >> tmp;
@@ -44,5 +46,6 @@ namespace _5
 
 		std::cout << "\nResult:";
 		std::cout << gridSearch(grid, pattern);
+		std::cout << "\n";
 	}
 }

@@ -41,12 +41,13 @@ namespace _3
 		std::vector<int> score;
 		std::vector<int> alice;
 		int tmp;
+		std::cout << "Enter score:\n";
 		for (int i = 0; i < score_size; ++i)
 		{
 			std::cin >> tmp;
 			score.push_back(tmp);
 		}
-
+		std::cout << "Enter alice score:\n";
 		for (int i = 0; i < alice_size; ++i)
 		{
 			std::cin >> tmp;
@@ -58,5 +59,7 @@ namespace _3
 		
 		for (int i : result)
 			std::cout << i << " ";
+
+		std::cout << "\n";
 	}
 }
