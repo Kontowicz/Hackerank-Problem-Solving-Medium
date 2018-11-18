@@ -9,6 +9,7 @@ void print()
 	name.emplace_back("Bigger is greater");
 	name.emplace_back("The grid search");
 	name.emplace_back("Fibonacci modified");
+	name.emplace_back("Organizing containers of balls");
 	int max_len = name[0].length();
 	for (auto it = name.begin(); it != name.end(); ++it)
 	{
@@ -46,6 +47,7 @@ int main()
 			case 4: _4::run(); break;
 			case 5: _5::run(); break;
 			case 6: _6::run(); break;
+			case 7: _7::run(); break;
 			case 0: break;
 		}
 	} while(n > 0);

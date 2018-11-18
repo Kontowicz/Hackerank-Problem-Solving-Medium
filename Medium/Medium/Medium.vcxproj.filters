@@ -47,5 +47,8 @@
     <ClInclude Include="the_grid_search_medium.h">
       <Filter>Header Files\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="organizing_containers_of_balls.h">
+      <Filter>Header Files\Medium</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
