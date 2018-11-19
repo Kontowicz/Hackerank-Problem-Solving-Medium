@@ -50,5 +50,8 @@
     <ClInclude Include="organizing_containers_of_balls.h">
       <Filter>Header Files\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="sherlock_and_valid_string_medium.h">
+      <Filter>Header Files\Medium</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -125,6 +125,7 @@
     <ClInclude Include="fibonacci_modified_medium.h" />
     <ClInclude Include="include_medium.h" />
     <ClInclude Include="organizing_containers_of_balls.h" />
+    <ClInclude Include="sherlock_and_valid_string_medium.h" />
     <ClInclude Include="the_grid_search_medium.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
