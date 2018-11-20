@@ -9,6 +9,8 @@ e:\repos\c++\hackerank-problem-solving-medium\medium\medium\the_grid_search_medi
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\the_grid_search_medium.h(11): warning C4018: '<=': signed/unsigned mismatch
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\organizing_containers_of_balls_medium.h(14): warning C4018: '<': signed/unsigned mismatch
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\organizing_containers_of_balls_medium.h(18): warning C4018: '<': signed/unsigned mismatch
-e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(17): warning C4018: '<': signed/unsigned mismatch
-e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(23): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\sherlock_and_anagrams_medium.h(13): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\sherlock_and_anagrams_medium.h(14): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(18): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(24): warning C4018: '<': signed/unsigned mismatch
   Medium.vcxproj -> E:\Repos\C++\Hackerank-Problem-Solving-Medium\Medium\Debug\Medium.exe
