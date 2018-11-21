@@ -56,5 +56,8 @@
     <ClInclude Include="sherlock_and_anagrams_medium.h">
       <Filter>Header Files\Medium</Filter>
     </ClInclude>
+    <ClInclude Include="pairs_medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
