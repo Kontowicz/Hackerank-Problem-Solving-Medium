@@ -5,6 +5,7 @@ void print()
 	std::vector<std::string> name;
 	name.emplace_back("Extra long factorials");
 	name.emplace_back("Pairs");
+	name.emplace_back("The great xor");
 	name.emplace_back("Encryption");
 	name.emplace_back("Climbing the leaderboard");
 	name.emplace_back("Bigger is greater");
@@ -54,6 +55,7 @@ int main()
 			case 8: _8::run(); break;
 			case 9: _9::run(); break;
 			case 10: _10::run(); break;
+			case 11: _11::run(); break;
 			case 0: break;
 		}
 	} while(n > 0);

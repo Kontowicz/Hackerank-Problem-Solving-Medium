@@ -128,6 +128,7 @@
     <ClInclude Include="pairs_medium.h" />
     <ClInclude Include="sherlock_and_anagrams_medium.h" />
     <ClInclude Include="sherlock_and_valid_string_medium.h" />
+    <ClInclude Include="the_great_xor_medium.h" />
     <ClInclude Include="the_grid_search_medium.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
