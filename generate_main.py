@@ -9,9 +9,9 @@ def get_files_main(path):
 			with open(path + file) as f:
 				read_data = f.read()
 				namespace = re.search(r'namespace( +)_([0-9]+)', read_data)
-				final_medium.append([file, namespace.group(2)])
-	final_medium = sorted(final_medium, key=lambda x:x[1])
-	return final_medium
+				final_medium.append([file, int(namespace.group(2))])
+	new = sorted(final_medium, key=lambda x:x[1])
+	return new
 	
 def generate_include_medium(data, path):
 	file = open(path, 'w')
@@ -27,27 +27,30 @@ def generate_main(data, path):
 		tmp = tmp.replace('_', ' ')
 		t = tmp[0].upper() + tmp[1::]
 		
-		parsed_data.append(t)
+		parsed_data.append([t, d[1]])
+	print(parsed_data)
+		
 	file.write('#include "include_medium.h"\n')
+
 	file.write('\nvoid print()\n{\n')
 	file.write('\tstd::vector<std::string> name;\n')
 	for i in parsed_data:
-		file.write('\tname.emplace_back("%s");\n' %i)
-		
+		file.write('\tname.emplace_back("%s");\n' %i[0])	
 	file.write('\tint max_len = name[0].length();\n')
 	file.write('\tfor (auto it = name.begin(); it != name.end(); ++it)\n\t{\n')
 	file.write('\t\tif(max_len < (*it).length())\n')
 	file.write('\t\t\tmax_len = (*it).length();\n')
 	file.write('\t}\n')
+	file.write('\tstd::cout.fill(\' \');\n')
 	file.write('\tstd::cout.width(max_len + std::to_string(name.size()).length());\n')
+	
 	file.write('\tstd::cout << "Medium:" << std::endl;\n')
 	file.write('\tint cnt(1);\n')
 	file.write('\tfor (int i = 0; i < name.size(); ++i)\n\t{\n')
 	file.write('\t\tstd::cout.width(max_len + std::to_string(name.size()).length());\n')
-	file.write('\t\tstd::cout<< std::left << cnt++;\n')
 	file.write('\t\tstd::cout.width(max_len + 2);\n')
 	file.write('\t\tstd::cout.fill(\'-\');\n')
-	file.write('\t\tstd::cout << std::internal << name[i] << std::endl;\n')	
+	file.write('\t\tstd::cout << std::left << cnt++ << std::internal << name[i] << std::endl;\n')	
 	file.write('\t}\n')
 	file.write('}\n')
 	file.write('\n\n\nint main()\n{\n')

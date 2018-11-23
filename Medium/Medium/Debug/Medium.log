@@ -1,5 +1,4 @@
 ﻿  main.cpp
-e:\repos\c++\hackerank-problem-solving-medium\medium\medium\the_great_xor_medium.h(10): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(10): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\encryption_medium.h(14): warning C4018: '<': signed/unsigned mismatch
@@ -12,6 +11,7 @@ e:\repos\c++\hackerank-problem-solving-medium\medium\medium\organizing_container
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\organizing_containers_of_balls_medium.h(18): warning C4018: '<': signed/unsigned mismatch
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\sherlock_and_anagrams_medium.h(13): warning C4018: '<': signed/unsigned mismatch
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\sherlock_and_anagrams_medium.h(14): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\the_great_xor_medium.h(10): warning C4244: 'return': conversion from 'double' to 'long', possible loss of data
 e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(20): warning C4018: '<': signed/unsigned mismatch
-e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(26): warning C4018: '<': signed/unsigned mismatch
+e:\repos\c++\hackerank-problem-solving-medium\medium\medium\main.cpp(27): warning C4018: '<': signed/unsigned mismatch
   Medium.vcxproj -> E:\Repos\C++\Hackerank-Problem-Solving-Medium\Medium\Debug\Medium.exe

@@ -4,8 +4,6 @@ void print()
 {
 	std::vector<std::string> name;
 	name.emplace_back("Extra long factorials");
-	name.emplace_back("Pairs");
-	name.emplace_back("The great xor");
 	name.emplace_back("Encryption");
 	name.emplace_back("Climbing the leaderboard");
 	name.emplace_back("Bigger is greater");
@@ -14,22 +12,24 @@ void print()
 	name.emplace_back("Organizing containers of balls");
 	name.emplace_back("Sherlock and valid string");
 	name.emplace_back("Sherlock and anagrams");
+	name.emplace_back("Pairs");
+	name.emplace_back("The great xor");
 	int max_len = name[0].length();
 	for (auto it = name.begin(); it != name.end(); ++it)
 	{
 		if(max_len < (*it).length())
 			max_len = (*it).length();
 	}
+	std::cout.fill(' ');
 	std::cout.width(max_len + std::to_string(name.size()).length());
 	std::cout << "Medium:" << std::endl;
 	int cnt(1);
 	for (int i = 0; i < name.size(); ++i)
 	{
 		std::cout.width(max_len + std::to_string(name.size()).length());
-		std::cout<< std::left << cnt++;
 		std::cout.width(max_len + 2);
 		std::cout.fill('-');
-		std::cout << std::internal << name[i] << std::endl;
+		std::cout << std::left << cnt++ << std::internal << name[i] << std::endl;
 	}
 }
 
