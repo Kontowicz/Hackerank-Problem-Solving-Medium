@@ -63,8 +63,10 @@ def generate_main(data, path):
 	file.write('\t\tstd::cin.ignore();\n')
 	file.write('\t\tswitch(n)\n')
 	file.write('\t\t{\n')
+	
 	for i in range(1, len(parsed_data)+1):
 		file.write('\t\t\tcase %d: _%d::run(); break;\n' %(i,i))
+		
 	file.write('\t\t\tcase 0: break;\n')
 	file.write('\t\t}\n')
 	file.write('\t} while(n > 0);\n')
