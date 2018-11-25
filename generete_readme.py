@@ -1,6 +1,7 @@
 import os 
 import re
 
+
 def get_files(path):
 	files = os.listdir(path)
 	final_medium = []
