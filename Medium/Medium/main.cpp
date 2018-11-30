@@ -15,6 +15,7 @@ void print()
 	name.emplace_back("Pairs");
 	name.emplace_back("The great xor");
 	name.emplace_back("Greedy florist");
+	name.emplace_back("Zig zag sequence");
 	int max_len = name[0].length();
 	for (auto it = name.begin(); it != name.end(); ++it)
 	{
@@ -58,6 +59,7 @@ int main()
 			case 10: _10::run(); break;
 			case 11: _11::run(); break;
 			case 12: _12::run(); break;
+			case 13: _13::run(); break;
 			case 0: break;
 		}
 	} while(n > 0);

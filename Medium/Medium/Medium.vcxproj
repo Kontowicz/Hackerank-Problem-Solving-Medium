@@ -123,6 +123,7 @@
     <ClInclude Include="encryption_medium.h" />
     <ClInclude Include="extra_long_factorials_medium.h" />
     <ClInclude Include="fibonacci_modified_medium.h" />
+    <ClInclude Include="greedy_florist_medium.h" />
     <ClInclude Include="include_medium.h" />
     <ClInclude Include="organizing_containers_of_balls.h" />
     <ClInclude Include="pairs_medium.h" />

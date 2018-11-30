@@ -18,3 +18,4 @@
 |10|[Sherlock and valid string ](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)|[MySolution](../master/Medium/Medium/sherlock_and_valid_string_medium.h)|
 |11|[The great xor ](https://www.hackerrank.com/challenges/the-great-xor/problem)|[MySolution](../master/Medium/Medium/the_great_xor_medium.h)|
 |12|[The grid search ](https://www.hackerrank.com/challenges/the-grid-search/problem)|[MySolution](../master/Medium/Medium/the_grid_search_medium.h)|
+|13|[Zig zag sequence ](https://www.hackerrank.com/challenges/zig-zag-sequence/problem)|[MySolution](../master/Medium/Medium/zig_zag_sequence_medium.h)|

@@ -10,3 +10,4 @@
 #include "pairs_medium.h"
 #include "the_great_xor_medium.h"
 #include "greedy_florist_medium.h"
+#include "zig_zag_sequence_medium.h"

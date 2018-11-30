@@ -62,5 +62,8 @@
     <ClInclude Include="the_great_xor_medium.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="greedy_florist_medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
