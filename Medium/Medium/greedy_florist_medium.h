@@ -19,7 +19,7 @@ namespace _12
 		return cost;
 	}
 
-	void _run()
+	void run()
 	{
 		std::cout << "Greedy florist.\nEnter k then vector size.\n";
 		int k = 0, size = 0;
